@@ -84,3 +84,34 @@ h2, h4, h1 {
     color: #ecf0f1;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.skill {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.chart {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.chart .percent {
+    color: #21211D;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.chart .percent:after {
+    content: '%';
+}
